@@ -1,0 +1,158 @@
+/* {
+  box-sizing: border-box;
+}*/
+body {
+  margin: 0px;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-family: monospace;
+}
+
+.container {
+  width: 1170px;
+  margin: 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  padding-top: 10px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+}
+
+.top-wrapper {
+  overflow: hidden;
+  height: 450px;
+  padding: 230px 0 100px 0;
+  background-image: url(./image/pic01.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1, h2 {
+  font-family: monospace;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 4px;
+}
+
+.top-wrapper h2 {
+  font-size: 35px;
+}
+
+.promotion-wrapper {
+  margin: 25px;
+  padding: 15px;
+  padding-left: 30px;
+}
+
+.heading {
+  font-family: monospace;
+  text-align: : center;
+  height: 420px;
+  color: white;
+  background-color: black;
+  font-weight: lighter;
+  font-size: 18px;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.heading h4 {
+  margin: 10px;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  color: yellow;
+}
+
+.heading h3, p {
+  margin: 10px;
+}
+
+.heading h3 {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.heading p {
+  font-size: 15px;
+  font-style: italic;
+  color: white;
+  opacity: 0.7;
+}
+
+.top {
+  text-align: center;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+.photo {
+  white-space: nowrap;
+  float: left;
+  position: inherit;
+  margin: 1%;
+  padding-right: 3px;
+  padding-left: 67px;
+  padding-bottom: 1px;
+}
+
+footer {
+  width: 70%;
+  height: 600px;
+}
+
+.message-wrapper h6 {
+  padding-left: 100px;
+  padding-top: 300px;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 35px;
+  font-family: monospace;
+}
+
+.message-wrapper a {
+  position: relative;
+  width: 25%;
+  font-size: 125px;
+  padding-left: 92px;
+}
+
+.message-wrapper p {
+  font-size: 15px;
+  position: absolute;
+  padding-left: 50px;
+  top: -30%;
+  width: 100% color: black;
+}
+
+.mail {
+  margin-top: 30px;
+  padding-top: 50px;
+  margin: 10px;
+  text-align: center;
+  height: 800px;
+  margin-bottom: 30px;
+}
+
+input, textarea {
+  position: center;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
